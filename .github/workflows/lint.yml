@@ -23,4 +23,4 @@ jobs:
 
     # Runs the lint script
     - name: Run the lint Script
-      run: npm lint
+      run: npm run lint
