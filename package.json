@@ -7,7 +7,7 @@
   "license": "GPL-3.0",
   "scripts": {
     "start": "react-scripts start",
-    "lint": "node_modules/.bin/eslint src/*jsx && node_modules/.bin/eslint src/Components/*.js"
+    "lint": "node_modules/.bin/eslint src/*jsx"
   },
   "dependencies": {
     "react": "^16.13.1",
