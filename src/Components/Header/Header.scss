@@ -1,0 +1,43 @@
+.header-container {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid hsl(217, 16%, 45%);
+  position: relative;
+
+  .title-container {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin: 0 0 10px 10px;
+  }
+
+  .score-container {
+    height: 125px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      color: hsl(229, 64%, 46%);
+      letter-spacing: 2px;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    h1 {
+      opacity: 0.6;
+      font-size: 4.5rem;
+    }
+  }
+}
