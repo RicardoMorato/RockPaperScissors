@@ -1,0 +1,38 @@
+# Configuration for welcome - https://github.com/behaviorbot/welcome
+
+# Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
+
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: >
+  Thanks for opening your first issue here! Be sure to follow the issue template!
+  Thanks for opening your first issue here! We are proud of you!
+  Great work on opening your first issue here! Congrats!
+  Great work on opening your first issue here! You are awesome!
+
+# Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
+
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment: >
+💖 Thanks for opening this pull request! 💖
+
+Examples of commit messages with semantic prefixes:
+- `hotfix(name-of-branch): Fixed method addOne() on index.js`
+- `bugfix(name-of-branch): Deleted method sumAll() on index.js`
+- `feature(name-of-branch): Add app.isPackaged() method on index.js`
+
+Things that will help get your PR across the finish line:
+- Follow CITi's template of Pull Requests.
+- Be sure to use ESLint in all JavaScript files.
+- Document any user-facing changes you've made following the [documentation styleguide](https://github.com/electron/electron/blob/master/docs/styleguide.md).
+- Include tests when adding/changing behavior.
+- Include screenshots and animated GIFs whenever possible.
+
+Your pull request will be analysed and reviewd as soon as we can.
+
+# Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
+
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: >
+  Congrats on merging your first pull request! We are proud of you! 🎉🎉🎉
+
+  You are such a great developer that I'm speechless!!! 🙊🙊🙊
