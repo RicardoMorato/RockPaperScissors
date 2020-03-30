@@ -16,7 +16,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - uses: actions/checkout@v2
+    
+    # Installs all the packages
+    - name: Install dependencies and packages
+      run: npm install
 
     # Runs the lint script
     - name: Run the lint Script
-      run: yarn lint
+      run: npm lint
