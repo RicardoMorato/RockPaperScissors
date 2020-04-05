@@ -1,0 +1,67 @@
+$element-size: 200px;
+
+.choose-element {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 20vh;
+
+  :nth-child(2){
+    top: -($element-size/2);
+    left: -(($element-size - 50px)/2);
+  }
+
+  :nth-child(3){
+    bottom: -($element-size/2);
+  }
+
+  :nth-child(4){
+    top: -($element-size/2);
+    right: -(($element-size - 50px)/2);
+  }
+}
+
+.element-outter-ring {
+  position: absolute;
+  height: $element-size;
+  width: $element-size;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &.scissors-outter-ring {
+    background: radial-gradient(hsl(39, 89%, 49%) 0%,  hsl(40, 84%, 53%) 100%);
+  }
+
+  &.paper-outter-ring {
+    background: radial-gradient(hsl(230, 89%, 62%) 0%,  hsl(230, 89%, 65%));
+  }
+
+  &.rock-outter-ring {
+    background: radial-gradient(hsl(349, 71%, 52%) 0%,  hsl(349, 70%, 56%));
+  }
+}
+
+.element {
+  position: absolute;
+  height: $element-size - 50px;
+  width: $element-size - 50px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.element-icon {
+  height: $element-size/2.5;
+}
+
+.element-icon-rock {
+  height: $element-size/3;
+}
