@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './global/refs.scss';
+import { Header } from './Components/index';
 
 function App() {
   return (
-    <p>Dale boy!</p>
+    <Header />
   );
 }
 
