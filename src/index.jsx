@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './global/refs.scss';
-import { Header } from './Components/index';
+import { Header, ChooseElement } from './Components/index';
 
 function App() {
   return (
-    <Header />
+    <>
+      <Header />
+      <ChooseElement />
+    </>
   );
 }
 
